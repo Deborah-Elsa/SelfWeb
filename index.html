@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zn">
+	<head>
+		<meta charset="UTF-8">
+		<title>证书信息</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="pragma" content="no-cache"> 
+		<meta http-equiv="Cache-Control" content="no-cache, must-revalidate"> 
+		<meta http-equiv="expires" content="0">
+		<link rel="stylesheet" type="text/css" href="mui.css" />
+		<link rel="stylesheet" type="text/css" href="common.css" />
+		<style type="text/css">
+			.touxiang {
+				width: 200px;
+				height: 200px;
+				margin: 0px auto;
+				overflow: hidden;
+				border-radius: 50%;
+				border: 1px solid #acc4da;
+			}
+			
+			.touxiang img {
+				width: 100%;
+			}
+			
+			ul li {
+				margin-bottom: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="app">
+			<div v-if="success && cert.name" class="center">
+				<div class="form" style="margin-top: 0px;">
+					<ul>
+						<li>
+							<div class="touxiang">
+								<img src="touXiang.jpg" />
+							</div>
+						</li>
+						<li>
+							<label>专家姓名：孙洪萍</label>
+						</li>
+						<li>
+							<label>专家证书号：PBZJ130936545</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+	
